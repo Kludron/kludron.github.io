@@ -29,11 +29,10 @@ html {
 }
 
 body {
-  line-height: 1.75rem;
+  line-height: 1.0rem;
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 
 /* --- Typography --- */
@@ -448,8 +447,8 @@ img[data-src] {
 }
 
 .post-content {
-  font-size: 1.08rem;
-  line-height: 1.8;
+  font-size: 16px;
+  line-height: 1.5;
   margin-top: 2rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -1346,7 +1345,7 @@ $sidebar-display: "sidebar-display";
 
 @media all and (max-width: 849px) and (orientation: portrait) {
   [data-topbar-visible=false] #topbar-wrapper {
-    top: 0;
+    top: 0.4;
   }
 }
 
@@ -1448,6 +1447,7 @@ $sidebar-display: "sidebar-display";
   .site-title {
     font-size: 1.3rem;
     margin-left: 0 !important;
+    text-align: center;
   }
 
   .site-subtitle {
