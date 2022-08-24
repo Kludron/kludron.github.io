@@ -73,6 +73,8 @@ avatar: '/commons/avatar.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
+future: false
+incremental: true
 
 comments:
   active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
