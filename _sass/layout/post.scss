@@ -71,6 +71,7 @@ img.preview-img {
     @include btn-post-nav;
 
     color: var(--link-color);
+    border-radius: 0;
 
     &:hover {
       background: #2a408e;
@@ -103,14 +104,14 @@ img.preview-img {
     }
 
     &:first-child {
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
+      // border-top-right-radius: 0;
+      // border-bottom-right-radius: 0;
       left: 0.5px;
     }
 
     &:last-child {
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
+      // border-top-left-radius: 0;
+      // border-bottom-left-radius: 0;
       right: 0.5px;
     }
   }
