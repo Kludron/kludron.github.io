@@ -6,21 +6,21 @@
 // @import "custom";
 @import "default_colors";
 
-$body-background: $cod-grey !default;
+$body-background: $kludron-grey !default;
 $body-foreground: $gallery !default;
 $header: $conifer !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: $kludron-navy;
-    color: $body-foreground;
-    font-size: 14px;
-    line-height: 1.5;
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-}
+// body {
+//     margin: 0;
+//     padding: 0;
+//     background-color: $body-background;
+//     color: $body-foreground;
+//     font-size: 14px;
+//     line-height: 1.5;
+//     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+// }
 
 /* General & 'Reset' Stuff */
 
