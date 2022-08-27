@@ -1,0 +1,82 @@
+/*
+ * The SCSS variables
+ */
+
+/* sidebar */
+
+$sidebar-width: 260px !default;        /* the basic width */
+$sidebar-width-small: 210px !default;  /* screen width: >= 850px, <= 1199px (iPad landscape) */
+$sidebar-width-large: 350px !default;  /* screen width: >= 1650px */
+
+/* tabs of sidebar */
+
+$tab-count: 5 !default;   /* backward compatible (version <= 4.0.2) */
+$tab-height: 3rem !default;
+$tab-cursor-height: 1.6rem !default;
+
+$cursor-width: 2px !default;    /* the cursor width of the selected tab */
+
+/* other framework sizes */
+
+$topbar-height: 3rem !default;
+
+$search-max-width: 210px !default;
+
+$footer-height: 5rem !default;
+$footer-height-mobile: 6rem !default;   /* screen width: <= 576px */
+
+$main-content-max-width: 1250px !default;
+
+$bottom-min-height: 35rem !default;
+
+/* syntax highlight */
+
+$code-font-size: 0.85rem !default;
+
+/* Functions */
+@mixin label($font-size: 1rem, $font-weight: 600, $color: var(--label-color)) {
+  color: $color;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+@mixin pl-pr($val) {
+  padding-left: $val;
+  padding-right: $val;
+}
+
+@mixin ml-mr($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+@mixin slide($append: null) {
+  $basic: transform 0.5s ease;
+  @if $append {
+    -webkit-transition: $basic, $append;
+    transition: $basic, $append;
+  } @else {
+    -webkit-transition: $basic;
+    transition: $basic;
+  }
+}
+
+@mixin prompt($type, $fw-icon, $icon-weight: 900) {
+  &.prompt-#{$type} {
+    background-color: var(--prompt-#{$type}-bg);
+
+    &::before {
+      content: $fw-icon;
+      color: var(--prompt-#{$type}-icon-color);
+      font-weight: $icon-weight;
+    }
+  }
+}
+
+@mixin align-center {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}

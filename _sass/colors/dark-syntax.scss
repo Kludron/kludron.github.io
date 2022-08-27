@@ -2,9 +2,6 @@
  * The syntax dark mode styles.
  */
 
-@import "colors/default-colors";
-
-
 @mixin dark-syntax {
   /* syntax highlight colors from https://raw.githubusercontent.com/jwarby/pygments-css/master/monokai.css */
   .highlight pre { background-color: var(--highlight-bg-color); }

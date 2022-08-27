@@ -47,8 +47,8 @@ $code-radius: 6px;
 }
 
 .highlighter-rouge {
-  @extend %code-snippet-bg;
-  @extend %code-snippet-radius;
+  // @extend %code-snippet-bg;
+  // @extend %code-snippet-radius;
 
   color: var(--highlighter-rouge-color);
   margin-top: 0.5rem;
@@ -56,11 +56,11 @@ $code-radius: 6px;
 }
 
 .highlight {
-  @extend %code-snippet-radius;
-  @extend %code-snippet-bg;
+  // @extend %code-snippet-radius;
+  // @extend %code-snippet-bg;
 
   @at-root figure#{&} {
-    @extend %code-snippet-bg;
+    // @extend %code-snippet-bg;
   }
 
   overflow: auto;
@@ -141,7 +141,7 @@ code {
 }
 
 td.rouge-code {
-  @extend %code-snippet-padding;
+  // @extend %code-snippet-padding;
 
   /*
     Prevent some browser extends from
@@ -173,7 +173,7 @@ div {
 }
 
 .code-header {
-  @extend %no-cursor;
+  // @extend %no-cursor;
 
   $code-header-height: 2.25rem;
 
@@ -229,7 +229,7 @@ div {
 
   /* clipboard */
   button {
-    @extend %cursor-pointer;
+    // @extend %cursor-pointer;
 
     border: 1px solid transparent;
     border-radius: $code-radius;
@@ -271,7 +271,7 @@ div {
 @media all and (max-width: 576px) {
   .post-content {
     > div[class^='language-'] {
-      @include ml-mr(-1.25rem);
+      // @include ml-mr(-1.25rem);
 
       border-radius: 0;
 
