@@ -33,6 +33,23 @@ $bottom-min-height: 35rem !default;
 
 $code-font-size: 0.85rem !default;
 
+%link-hover {
+  border: 1px solid var(--link-hover-color);
+  color: var(--link-hover-color);
+  transition: top 0.2s ease-in-out;
+}
+
+%img-caption {
+  + em {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-size: 80%;
+    padding: 0;
+    color: #6d6c6c;
+  }
+}
+
 /* Functions */
 @mixin label($font-size: 1rem, $font-weight: 600, $color: var(--label-color)) {
   color: $color;

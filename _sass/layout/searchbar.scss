@@ -1,0 +1,156 @@
+
+#search-trigger {
+    display: none;
+}
+
+#search-input {
+  background: center;
+  border: 0;
+  border-radius: 0;
+  padding: 0.18rem 0.3rem;
+  color: var(--text-color);
+  height: auto;
+
+  &:focus {
+    box-shadow: none;
+    background: center;
+
+    @mixin input-placeholder {
+      opacity: 0.6;
+    }
+
+    &.form-control {
+      &::-webkit-input-placeholder { @include input-placeholder; }
+      &::-moz-placeholder { @include input-placeholder; }
+      &:-ms-input-placeholder { @include input-placeholder; }
+      &::placeholder { @include input-placeholder; }
+    }
+  }
+}
+
+#search-result-wrapper {
+  display: none;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+
+  .post-content {
+    margin-top: 2rem;
+  }
+}
+
+#search-cancel { /* 'Cancel' link */
+  color: var(--link-color);
+  margin-left: 1rem;
+  display: none;
+  cursor: pointer;
+}
+
+
+#search-wrapper {
+  display: flex;
+  width: 100%;
+  border-radius: 1rem;
+
+  border: 1px solid var(--search-wrapper-border-color);
+  background: var(--search-wrapper-bg);
+  padding: 0 0.5rem;
+
+  i {
+    z-index: 2;
+    font-size: 0.9rem;
+    color: var(--search-icon-color);
+  }
+}
+
+#search-hints {
+  padding: 0 1rem;
+
+  h4 {
+    margin-bottom: 1.5rem;
+  }
+
+  .post-tag {
+    display: inline-block;
+    line-height: 1rem;
+    font-size: 1rem;
+    background: var(--search-tag-bg);
+    border: none;
+    padding: 0.5rem;
+    margin: 0 1.25rem 1rem 0;
+
+    &::before {
+      content: "#";
+      color: var(--text-muted-color);
+      padding-right: 0.2rem;
+    }
+
+    color: var(--link-color);
+  }
+}
+
+#search-results {
+  padding-bottom: 3rem;
+
+  a {
+    &:hover {
+      color: var(--link-hover-color);
+    }
+
+    bottom-border: none;
+    color: var(--link-color);
+    font-weight: 400;
+
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+
+  > div {
+    width: 100%;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    i { /* icons */
+      color: #818182;
+      margin-right: 0.15rem;
+      font-size: 80%;
+    }
+
+    > p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+  }
+} /* #search-results */
+
+@media all and (max-width: 849px) {
+  
+  #search-result-wrapper {
+    width: 100%;
+  }
+
+  #breadcrumb,
+  #search-wrapper {
+    display: none;
+  }
+
+  #search-trigger {
+    display: block;  
+  }
+
+  #search-result-wrapper .post-content {
+    letter-spacing: 0;
+  }
+
+}
+
+@media all and (min-width: 850px) {
+  #search-trigger {
+    display: none;
+  }
+}

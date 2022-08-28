@@ -22,6 +22,19 @@
   }
 }
 
+#topbar-title {
+  display: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--topbar-text-color);
+  text-align: center;
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
 /* --- top-bar --- */
 
 #topbar-wrapper {
