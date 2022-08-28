@@ -1,13 +1,13 @@
 # CDNs
 
-cdns:
-  # Google Fonts
-  - url: https://fonts.googleapis.com
-  - url: https://fonts.gstatic.com
-    args: crossorigin
-  - url: https://fonts.googleapis.com
-  # jsDelivr CDN
-  - url: https://cdn.jsdelivr.net
+# cdns:
+#   # Google Fonts
+#   - url: https://fonts.googleapis.com
+#   - url: https://fonts.gstatic.com
+#     args: crossorigin
+#   - url: https://fonts.googleapis.com
+#   # jsDelivr CDN
+#   - url: https://cdn.jsdelivr.net
 
 # fonts
 

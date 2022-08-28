@@ -48,7 +48,6 @@ $(function() {
       let destOffset = $target.offset().top -= REM / 2;
 
       if (destOffset < curOffset) { // scroll up
-        ScrollHelper.hideTopbar();
         ScrollHelper.addScrollUpTask();
 
         if (isMobileViews && isPortrait) {
@@ -57,7 +56,8 @@ $(function() {
 
       } else { // scroll down
         if (isMobileViews && isPortrait) {
-          destOffset -= ScrollHelper.getTopbarHeight();
+          ScrollHelper.hideTopbar();
+          destOffset += ScrollHelper.getTopbarHeight();
         }
       }
 
