@@ -63,6 +63,12 @@
   }
 }
 
+@media all and (max-width: 849px) and (orientation: portrait) {
+  [data-topbar-visible=false] #topbar-wrapper {
+    top: 0.4;
+  }
+}
+
 @media all and (min-width: 850px) {
     
   #topbar {

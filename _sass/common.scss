@@ -766,7 +766,7 @@ figure .mfp-title {
   }
 
   .site-subtitle {
-    // @include ml-mr(1rem);
+    @include ml-mr(1rem);
 
     font-size: 90%;
   }
