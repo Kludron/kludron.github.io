@@ -38,7 +38,6 @@ $sidebar-display: "sidebar-display";
   .site-title {
     padding-top: 20%;
     text-align: center;
-padding-left: $sidebar-width-large * 0.05;
     a {
       transition: color 0.35s ease-out;
 
@@ -65,9 +64,19 @@ padding-left: $sidebar-width-large * 0.05;
     font-weight: 600;
     letter-spacing: 1px;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle; 
+        
+    > span {
+        letter-spacing: 2px;
+    }
+    > i {
+        &.unloaded {
+            display: inline-block !important;
+        }
+    }
   }
 
+         
   .nav-item {
     text-align: left;
     display: table;
@@ -259,7 +268,7 @@ padding-left: $sidebar-width-large * 0.05;
   }
 
   h1.dynamic-title {
-    display: none;
+    // display: none;
 
     ~ .post-content {
       margin-top: 3rem;

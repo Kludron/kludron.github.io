@@ -147,10 +147,25 @@
     letter-spacing: 0;
   }
 
+  // Don't show trending tags on mobile.
+  #search-hints {
+    .post-tag {
+      display: none;
+    }
+    .panel-heading {
+      display: none;
+    }
+  }
+
 }
 
 @media all and (min-width: 850px) {
   #search-trigger {
     display: none;
+  }
+
+  #search-result-wrapper {
+    margin-top: 3rem;
+    max-width: $main-content-max-width;
   }
 }
