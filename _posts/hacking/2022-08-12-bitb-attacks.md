@@ -23,8 +23,8 @@ example, a website like [Canva](https://www.canva.com) allows you to log in or
 'continue' with a range of services such as Google, Facebook, Apple, Microsoft
 and Clever; as well as the typical email login.
 
-![canva-login-screen](/assets/img/canva-login.png){: .shadow width="1548" height="864" style="max-width: 90%" }
-_Canva Login Screen_
+![canva-login-screen](/assets/img/canva-login.png){: .shadow }
+_Canva Login Screen_{:.img-caption}
 
 
 When any of these are clicked, a small pop-up window appears with the login

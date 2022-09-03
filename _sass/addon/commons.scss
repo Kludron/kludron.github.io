@@ -90,8 +90,8 @@ a {
 }
 
 img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 blockquote {
@@ -464,6 +464,12 @@ img[data-src] {
 
   }
 
+  img {
+    @extend %img-caption;
+    @include align-center;
+    max-width: 90%;
+  }
+
   ul {
     /* attribute 'hide-bullet' was added by liquid */
     .task-list-item[hide-bullet] {
@@ -723,9 +729,6 @@ $sidebar-display: "sidebar-display";
     display: table-cell;
     vertical-align: middle;
 
-    span {
-      @extend %heading;
-    }
     i {
       text-color: var(--heading-color);
     }
@@ -1588,17 +1591,15 @@ $sidebar-display: "sidebar-display";
       }
 
       .site-title {
-        @extend %profile-ml;
-
         a {
           font-size: 1.7rem;
           letter-spacing: 1px;
         }
+        text-align: center;
       }
 
       .site-subtitle {
-        @extend %profile-ml;
-
+        text-align: center;
         word-spacing: 0;
         margin-top: 0.3rem;
       }

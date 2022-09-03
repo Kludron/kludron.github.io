@@ -64,11 +64,6 @@
       overflow: hidden;
       text-overflow: ellipsis;
 
-      &:nth-child(odd) {
-        background-color: var(--main-wrapper-bg, #fff);
-        background-image: linear-gradient(to left, #fff, #fbfbfb, #fbfbfb, #fbfbfb, #fff);
-      }
-
       &::before {
         @extend %timeline;
 
