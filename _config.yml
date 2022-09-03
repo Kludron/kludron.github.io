@@ -44,6 +44,7 @@ social:
   email: kludron@lukewarmsecurityinfo.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - #
     - https://twitter.com/kludron_
     - https://github.com/kludron
     - https://linkedin.com/in/liam-godfrey-aa4946177

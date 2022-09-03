@@ -14,13 +14,5 @@
   span {
     margin-left: 0.6em;
     font-size: 0.7em;
-    font-family: 'Oswald', sans-serif;
   }
-}
-
-@media all and (max-width: 849px) {
-    .tag {
-        overflow-x: hidden;
-        text-overflow: ellipses;
-    }
 }

@@ -5,13 +5,15 @@ layout: page
 
 {% include lang.html %}
 
+<!-- About Section-->
+
 <div class="index-about">
     <h2>About me</h2>
-    <p>
         {% assign about = site.tabs | where: "title", "About" | first %}
         {{ about.content | markdownify }}
-    </p>
 </div>
+
+<!-- Recently Posted Section -->
 
 <div class="index-posts">
     <h2>Recent Posts</h2>
@@ -107,6 +109,7 @@ layout: page
     </div> <!-- #post-list -->
 </div>
 
-{% if paginator.total_pages > 5 %}
+<!-- Page Pagination (Don't show if only 1 page) -->
+{% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}
 {% endif %}

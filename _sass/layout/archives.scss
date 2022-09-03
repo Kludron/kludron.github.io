@@ -66,6 +66,7 @@
 
       &:nth-child(odd) {
         background-color: var(--main-wrapper-bg, #fff);
+        background-image: linear-gradient(to left, #fff, #fbfbfb, #fbfbfb, #fbfbfb, #fff);
       }
 
       &::before {
@@ -96,7 +97,6 @@
 
     &.day {
       font-size: 85%;
-      font-family: 'Lato', sans-serif;
 
     }
   }

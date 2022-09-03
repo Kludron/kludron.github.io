@@ -1,6 +1,7 @@
 ---
 layout: post
 published: true
+author: Kludron
 categories: [Hacking]
 title: "Malware Throughout History: The Morris Worm"
 snippet: "A dive into the worlds first major attack on the internet"
