@@ -8,15 +8,18 @@ layout: page
 <!-- About Section-->
 
 <div class="index-about">
+
     <h2>About me</h2>
+
+      <div class="about-preview">
         {% assign about = site.tabs | where: "title", "About" | first %}
-        {{ about.content | markdownify }}
+        <p>{{ about.content | markdownify }}</p>
+      </div>
 </div>
 
 <!-- Recently Posted Section -->
 
 <div class="index-posts">
-    <h2>Recent Posts</h2>
     {% assign pinned = site.posts | where: "pin", "true" %}
     {% assign default = site.posts | where_exp: "item", "item.pin != true and item.hidden != true" %}
 
@@ -52,14 +55,16 @@ layout: page
       {% endfor %}
     {% endif %}
 
+    <h2>Recent Posts</h2>
+
     <div id="post-list">
 
     {% for post in posts limit: 5 %}
 
       <div class="post-preview">
-        <h1>
+        <h3>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h1>
+        </h3>
 
         <div class="post-content">
           <p>

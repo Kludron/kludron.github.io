@@ -20,14 +20,14 @@ working_branch="$(git branch --show-current)"
 
 STAGING_BRANCH="$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')"
 
-PROD_BRANCH="production"
+PROD_BRANCH="prod"
 
 GEM_SPEC="jekyll-theme-chirpy.gemspec"
 
 NODE_CONFIG="package.json"
 
 FILES=(
-  "_sass/jekyll-theme-chirpy.scss"
+  "_sass/base.scss"
   "_javascript/copyright"
   "$GEM_SPEC"
   "$NODE_CONFIG"

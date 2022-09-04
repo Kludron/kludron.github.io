@@ -52,13 +52,15 @@
 
 } // .pagination
 
+.about-preview {
+  margin-left: 1rem;
+}
+
 #post-list {
-  margin-top: 1rem;
   padding-right: 0.5rem;
 
   .post-preview {
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    margin-left: 1rem;
     border-bottom: 1px solid var(--main-border-color);
 
     a:hover {
@@ -95,7 +97,7 @@
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
       }
     }

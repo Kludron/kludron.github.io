@@ -1343,8 +1343,6 @@ $sidebar-display: "sidebar-display";
   }
 
   h1.dynamic-title {
-    display: none;
-
     ~ .post-content {
       margin-top: 3rem;
     }
@@ -1352,7 +1350,8 @@ $sidebar-display: "sidebar-display";
 
 } /* max-width: 849px */
 
-@media all and (max-width: 849px) and (orientation: portrait) {
+@media all and (max-width: 849px) {
+  // Keep topbar visible
   [data-topbar-visible=false] #topbar-wrapper {
     top: 0;
   }
