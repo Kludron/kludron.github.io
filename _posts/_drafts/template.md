@@ -1,10 +1,12 @@
 ---
 layout: post
 published: false
-categories: [security, coding]
+categories: []
+author: Kludron
+pin: false
+tags: []
 title: Sample
-snippet: How to write stuff...
-date: 2022-08-10
+snippet: "How to write stuff..."
 ---
 
 Rules:  Max 500 words
