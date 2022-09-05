@@ -4,7 +4,7 @@ published: false
 author: Kludron
 categories: [Security]
 title: "Improving your personal security"
-snippet: ""
+snippet: "TLDR; Use a password manager such as Bitwarden or 1Password, set up Multi-factor authentication on an app such as Authy or Google Authenticator, and always use a VPN."
 tags: [Personal Security, VPN, Password Manager, Multi-Factor Authentication]
 ---
 

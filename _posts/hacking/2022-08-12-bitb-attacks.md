@@ -5,7 +5,6 @@ author: Kludron
 snippet: "A quick view on what Browser-In-The-Browser (BITB) attacks are and how to spot one."
 published: true
 categories: [Hacking]
-pin: true
 tags: [Phishing]
 ---
 
