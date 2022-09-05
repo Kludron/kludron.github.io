@@ -5,7 +5,7 @@ author: Kludron
 categories: [Security]
 title: "Insecure In-App Browsing"
 snippet: "Looking into what in-app browsers are, the security and privacy concerns around them, and how to protect yourself."
-tags: [Hashed Passwords, Hashing, Passwords]
+tags: [Browsers, iOS, TikTok, Privacy]
 pin: true
 ---
 
