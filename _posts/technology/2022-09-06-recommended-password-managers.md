@@ -22,7 +22,7 @@ When choosing a password manager, there are some things to consider:
 - What platforms are their apps available on? (i.e., iOS, Mac, Windows, Linux, Android, Browser)
 
 **TLDR**
-: For those starting out with a password manager, I would suggest trying [**1Password**](). While it is paid, it's quite 
+: For those starting out with a password manager, I would suggest trying [**1Password**](#1Password). While it is paid, it's quite 
 cheap at $2.99 USD/month. It has many user-friendly features such as password recovery and travel mode, and has
 lots of online support available if you get stuck.
 
