@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 categories: [Security, Technology]
 author: Kludron
 pin: false
@@ -60,4 +60,4 @@ as being **at least** 12 characters in length.
 - Organise your passwords so that they're easier to find...
 
 #### What password manager should I use?
-_Check out my [Recommended Password Managers](/progress) for a list of recommended password managers_.
+_Check out my [Recommended Password Managers](/posts/recommended-password-managers) for a list of recommended password managers_.
