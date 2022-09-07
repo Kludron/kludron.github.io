@@ -475,8 +475,7 @@ img[data-src] {
   }
 
   ul {
-    /* attribute 'hide-bullet' was added by liquid */
-    .task-list-item[hide-bullet] {
+    .task-list-item {
       list-style-type: none;
 
       > i { /* checkbox icon */
@@ -495,7 +494,7 @@ img[data-src] {
       margin: 0 0.5rem 0.2rem -1.3rem;
       vertical-align: middle;
     }
-
+    
   } /* ul */
 
   > ol,
