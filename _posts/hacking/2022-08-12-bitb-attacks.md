@@ -7,6 +7,11 @@ pin: true
 published: true
 categories: [Hacking]
 tags: [Phishing]
+icon:
+  path: /assets/img/bitb-phishing-vs-real.png
+  width: 800
+  height: 500
+  alt: "Fake vs Real Facebook Authentication pop-up (sourced from mrd0x.com)"
 ---
 
 ## What is a Browser-In-The-Browser (BITB) attack?
