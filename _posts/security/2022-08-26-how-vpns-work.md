@@ -64,6 +64,9 @@ computer, which means that a VPN server hides your IP address when online.
 Typically, it's safe to not use a VPN on your home networks - since they're generally private anyways, but it depends on what you're wanting
 a VPN for.
 
+> It's recommended that VPN's are used **all of the time** when travelling overseas.
+{: .prompt-tip}
+
 If you want a VPN just to stay more secure online, then use a VPN whenever you're connected to publicly accessible wifi. This could be at work, at
 the airport, at school etc. It's also recommended that you use a VPN when you're on your mobile data.
 
