@@ -45,12 +45,14 @@ permalink: /feed.xml
     {% endfor %}
   {% endif %}
 
-  {% if post.icon %}
-    <icon>{{ post.icon.path }}</icon>
-  {% endif %}
-
   {% if post.summary %}
-    <summary>{{ post.summary | strip }}</summary>
+    {% if post.icon %}
+    <summary>
+        <img alt="{{ post.icon.alt }}" border="0" height="{{ post.icon.height }}" width="{{ post.icon.width }}" src="{{ post.icon.path | absolute_url }}" title="{{ post.title }}" /> {{ post.summary | strip }}
+    </summary>
+    {% else %}
+      <summary>{{ post.summary | strip }}</summary>
+    {% endif %}
   {% else %}
     <summary>
       {% include no-linenos.html content=post.content %}
