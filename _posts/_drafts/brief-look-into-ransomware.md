@@ -4,7 +4,7 @@ published: false
 author: Kludron
 categories: [Security, Hacking]
 title: "A Brief Look into Ransomware"
-snippet: ""
+summary: ""
 tags: [Phishing, Computer Virus, Ransomware]
 ---
 # A Brief Look into Ransomware

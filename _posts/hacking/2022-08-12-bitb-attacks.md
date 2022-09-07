@@ -2,7 +2,7 @@
 layout: post
 title: Browser in the Browser attacks
 author: Kludron
-snippet: "A quick view on what Browser-In-The-Browser (BITB) attacks are and how to spot one."
+summary: "A quick view on what Browser-In-The-Browser (BITB) attacks are and how to spot one."
 pin: true
 published: true
 categories: [Hacking]

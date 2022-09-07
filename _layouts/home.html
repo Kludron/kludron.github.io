@@ -68,8 +68,8 @@ layout: page
 
         <div class="post-content">
           <p>
-            {% if post.snippet %}
-                {{ post.snippet | markdownify | strip_html | truncate: 200 | escape }}
+            {% if post.summary %}
+                {{ post.summary | markdownify | strip_html | truncate: 200 | escape }}
             {% else %}
                 {% include no-linenos.html content=post.content %}
                 {{ content | markdownify | strip_html | truncate: 200 | escape }}

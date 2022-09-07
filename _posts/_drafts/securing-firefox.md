@@ -4,7 +4,7 @@ published: false
 author: Kludron
 categories: [Technology, Privacy]
 title: "Securing Firefox"
-snippet: ""
+summary: ""
 tags: [Browsers, Firefox]
 ---
 # Securing Firefox

@@ -6,7 +6,7 @@ pin: false
 categories: [Security, Technology]
 tags: [VPN, Privacy, How it works]
 title: "How it works: Virtual Private Network (VPN)"
-snippet: "Virtual Private Networks or VPN's are one of the most commonly used terms when it comes to cyber security, but what is a VPN and how does it work?"
+summary: "Virtual Private Networks or VPN's are one of the most commonly used terms when it comes to cyber security, but what is a VPN and how does it work?"
 ---
 
 A Virtual Private Network (VPN) acts almost as a middle-man between your network connections. The path of 

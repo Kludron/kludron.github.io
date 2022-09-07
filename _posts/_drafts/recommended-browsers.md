@@ -2,7 +2,7 @@
 date: 2022-08-27
 title: Recommended Browsers
 categories: [Technology, Privacy]
-snippet: "Looking at some of the most common browsers, and what I would recommend - considering privacy, security, and user-friendliness."
+summary: "Looking at some of the most common browsers, and what I would recommend - considering privacy, security, and user-friendliness."
 tags: [Browsers]
 ---
 

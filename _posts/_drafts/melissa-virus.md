@@ -4,7 +4,7 @@ published: false
 author: Kludron
 categories: [Hacking]
 title: "Malware Throughout History: The Melissa Virus"
-snippet: ""
+summary: ""
 tags: [Phishing, Computer Virus, Malware Throughout History]
 ---
 # Malware Throughout History: The Melissa Virus

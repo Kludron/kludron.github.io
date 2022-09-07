@@ -6,7 +6,7 @@ author: Kludron
 pin: false
 tags: [Password Manager, Bitwarden, Lastpass, 1Password, Keepassxc, Dashlane, Personal Security]
 title: Top Recommended Password Managers
-snippet: "Looking at some of the top password managers, and which ones I would recommend for which use."
+summary: "Looking at some of the top password managers, and which ones I would recommend for which use."
 ---
 
 First of all, if you're still considering whether or not to use a password manager - you should. Check out my blog giving a brief overview of

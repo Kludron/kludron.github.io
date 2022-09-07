@@ -6,7 +6,7 @@ author: Kludron
 pin: false
 tags: []
 title: Sample
-snippet: "How to write stuff..."
+summary: "How to write stuff..."
 ---
 
 Rules:  Max 500 words

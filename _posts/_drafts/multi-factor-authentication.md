@@ -4,7 +4,7 @@ published: false
 author: Kludron
 categories: [Technology, Security]
 title: "How it works: Multi-Factor Authentication"
-snippet: ""
+summary: ""
 tags: [How it works, Multi-Factor Authentication]
 ---
 ## How does Multi-Factor Authentication work?
