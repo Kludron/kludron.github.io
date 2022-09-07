@@ -6,6 +6,11 @@ categories: [Hacking]
 title: "Malware Throughout History: The Morris Worm"
 summary: "Diving into the worlds first major attack on the internet - how it worked, and the repurcussions of it."
 tags: [Computer Worm, Computer Virus, Malware Throughout History]
+icon:
+  path: /assets/img/computer-error.png 
+  width: 800
+  height: 500
+  alt: "Computer Screen with Error"
 ---
 
 ## What is a computer worm?

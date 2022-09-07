@@ -7,6 +7,11 @@ title: "Insecure In-App Browsing"
 summary: "Looking into what in-app browsers are, the security and privacy concerns around them, and how to protect yourself."
 tags: [Browsers, iOS, TikTok, Privacy]
 pin: true
+icon:
+  path: /assets/img/messenger-in-app-browser.png
+  width: 800
+  height: 500
+  alt: "Facebook Messenger's In-App Browser" 
 ---
 
 ## What are in-app browsers?
