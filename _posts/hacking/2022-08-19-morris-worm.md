@@ -2,7 +2,7 @@
 layout: post
 published: true
 author: Kludron
-categories: [Hacking]
+categories: [Security, Hacking]
 title: "Malware Throughout History: The Morris Worm"
 summary: "Diving into the worlds first major attack on the internet - how it worked, and the repurcussions of it."
 tags: [Computer Worm, Computer Virus, Malware Throughout History]
