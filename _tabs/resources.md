@@ -6,13 +6,31 @@ order: 2
 displayed: true
 ---
 
-List of useful resources / projects.
+*This resources page is still in progress, but below are some helpful links to get started*.
 
-### Some Helpful Links
 
-- [CryptoSherrif](https://www.nomoreransom.org/crypto-sheriff.php?lang=en)
-- [VirusTotal](https://www.virustotal.com/gui/)
-- [HaveIBeenPwned](https://haveibeenpwned.com/)
-- [ACSC Report](https://www.cyber.gov.au/acsc/report)
-- [ScamWatch](https://www.scamwatch.gov.au/)
-- [Norton Power Eraser](https://support.norton.com/sp/static/external/tools/npe.html)
+[CryptoSherrif](https://www.nomoreransom.org/crypto-sheriff.php?lang=en)
+: This tool is useful if your device has been **Ransomwared** and requires a key / payment to *decrypt* your files.
+CryptoSherrif contains a database of known decryption keys for common ransomware.
+
+[VirusTotal](https://www.virustotal.com/gui/)
+: This tool is helpful in identifying if a File, Domain (website), IP Address or [File Hash](/posts/hashed-passwords/#what-is-a-hashing-function)
+has been identified as being malicious or if it contains a known virus.
+
+[HaveIBeenPwned](https://haveibeenpwned.com/)
+: This tool is useful in identifying if your email has been leaked in a data breach. This can be critical
+in identifying any passwords that need to be changed etc., as well as identifying what data of yours has potentially
+been leaked to the public.
+
+[ACSC Report](https://www.cyber.gov.au/acsc/report)
+: This is an online reporting tool where businesses / individuals can report a cybercrime, incident or vulnerability
+found in a platform.
+
+[ScamWatch](https://www.scamwatch.gov.au/)
+: This is another online reporting tool for individuals to report scams, identify scams, receive advice if you've been scammed, 
+and stay up to datewith the latest information around scams / which ways scammers are trying to steal from you.
+
+[Norton Power Eraser](https://support.norton.com/sp/static/external/tools/npe.html)
+: This tool is useful in an instance where a computer needs to be eradicated of all viruses and the standard anti-virus
+software isn't quite cutting it. *Note: This tool is very powerful and will likely find many false positives. This
+tool is also only available on Windows Operating Systems*.

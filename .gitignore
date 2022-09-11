@@ -7,7 +7,6 @@
 !.husky
 !.commitlintrc.json
 !.versionrc.json
-old_sass
 
 # bundler cache
 _site

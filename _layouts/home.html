@@ -9,11 +9,11 @@ layout: page
 
 <div class="index-about">
 
-    <h2>About me</h2>
+    <h2>About Me</h2>
 
       <div class="about-preview">
         {% assign about = site.tabs | where: "title", "About" | first %}
-        <p>{{ about.content | markdownify }}</p>
+        <p>{{ about.summary }}</p>
       </div>
 </div>
 
