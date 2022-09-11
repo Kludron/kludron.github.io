@@ -22,7 +22,7 @@ has been identified as being malicious or if it contains a known virus.
 in identifying any passwords that need to be changed etc., as well as identifying what data of yours has potentially
 been leaked to the public.
 
-[Shodan](https://shodan.io)
+[Shodan.io](https://shodan.io)
 : This tool is used to identify which network ports your server is exposing to the public internet / what
 information is available to the public about your server. *Note: This is a more complex tool, typically
 requiring the user to understand what network ports are etc.*
