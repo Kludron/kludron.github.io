@@ -1,10 +1,8 @@
 
-# Guidelines
-
 **Posts**
-- One post per week
-- 2+ images
-- 1+ information pop-ups (quote-block)
+- One post per week.
+- 2+ images.
+- 1+ information pop-ups (quote-block).
 
   **Security**
   - One post per week teaching something new.
@@ -17,6 +15,11 @@
 **Resources**
 - Embed links / programs to assist, so that resources can be used from within the page.
 - Give details about links.
+- Add more links to resources page.
 
 **About Me**
-- Give more detailed information (similar to LinkedIn page) *Note: With this, the front page will need to be updated with this information*
+- Give more detailed information (similar to LinkedIn page).
+
+**Site Funtcion**
+- Import fonts to repository so that external calls will not have to be made.
+- Add page analytics to view which posts are seen the most etc.
