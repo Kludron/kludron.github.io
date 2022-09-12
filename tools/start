@@ -1,4 +1,0 @@
-#!/bin/bash
-
-rm -rf ../_site
-docker run -it --rm --volume="$PWD/../:/srv/jekyll" -p 8000:8000 jekyll/jekyll jekyll serve --port 8000 --incremental --watch 8000
