@@ -23,6 +23,13 @@
 
   {% endif %}
 
+  {% if page.layout == 'post' %}
+    <script src='/assets/js/postcount.js'></script>
+    <script>
+      window.onload = incrementCount('{{ page.title }}');
+    </script>
+  {% endif %}
+
   {% capture seo_tags %}
     {% seo title=false %}
   {% endcapture %}
