@@ -51,7 +51,7 @@ permalink: /feed.xml
         <img alt="{{ post.icon.alt }}" border="0" height="{{ post.icon.height }}" width="{{ post.icon.width }}" src="{{ post.icon.path | absolute_url }}" title="{{ post.title }}" /> {{ post.summary | strip }}
     </summary>
     {% else %}
-      <summary>{{ post.summary | strip }}</summary>
+    <img alt="Lukewarm Security Info Logo" border="0" height="500" width="600" src="{{ '/assets/logo/Blue\+Grey\+White\ on\ Dark.png' | absolute_url }}" title="{{ post.title }}" /> {{ post.summary | strip }}
     {% endif %}
   {% else %}
     <summary>
