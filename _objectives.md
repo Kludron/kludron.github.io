@@ -23,3 +23,6 @@
 **Site Funtcion**
 - Import fonts to repository so that external calls will not have to be made.
 - Add page analytics to view which posts are seen the most etc.
+
+**Github**
+- Set up deployment cycle.
