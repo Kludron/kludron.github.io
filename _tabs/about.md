@@ -3,7 +3,19 @@ title: About
 icon: fas fa-info-circle
 order: 4
 displayed: true
-summary: "Bachelor of Computer Science (Computer Security) @ UNSW | IT Engineer @ Internet 2.0"
+summary: 
+  "
+  Bachelor of Computer Science (Computer Security) @ UNSW
+
+
+  IT Engineer @ Internet 2.0
+
+
+  Passionate about all things Security, Coding and Sharing what I've learnt with others.
+
+
+  *Still very much a newbie to the cyber space, but it seems cool so far...*
+  "
 ---
 
 ## What is this blog about?
