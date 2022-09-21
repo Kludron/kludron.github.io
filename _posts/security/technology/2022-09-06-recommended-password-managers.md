@@ -21,7 +21,7 @@ some of the benefits of using a password manager [here](/posts/password-managers
 
 When choosing a password manager, there are some things to consider:
 - What are the capabilities? (i.e., MFA Code Generation, Random Password Generation, Generating Backups, Password Sharing etc.)
-- What is the support like? (i.e., Is it community driven? Are there resources online if I get stuck?)
+- What is the support like? (i.e., Is it community-driven? Are there resources online if I get stuck?)
 - What are the costs? (Can I trial the software if there is a cost?)
 - Personal or Business use?
 - What platforms are their apps available on? (i.e., iOS, Mac, Windows, Linux, Android, Browser)

@@ -4,7 +4,7 @@ published: true
 author: Kludron
 categories: [Security, Hacking]
 title: "Malware Throughout History: The Morris Worm"
-summary: "Diving into the worlds first major attack on the internet - how it worked, and the repurcussions of it."
+summary: "Diving into the worlds first major attack on the internet - how it worked, and the repercussions of it."
 tags: [Computer Worm, Computer Virus, Malware Throughout History]
 icon:
   path: /assets/img/computer-error.png 
@@ -41,7 +41,7 @@ https://www.kryptoslogic.com/).
 ## What is the Morris Worm?
 
 The morris worm, being considered as the first major attack on the Internet,
-was furst unleashed on the evening on November 2, 1988 from a computer at MIT
+was first unleashed on the evening on November 2, 1988 from a computer at MIT
 (Massachusets Institute of Technology).
 
 Designed to exploit multiple backdoors on specific Unix devices and to stay
@@ -80,11 +80,11 @@ malfunction.
 that soon spun out of control.
 
 While there are questions are the original motives of the worms creation,
-he knew the importance of convering his tracks - which was evicednt in
+he knew the importance of covering his tracks - which was evident in
 how he hacked into an MIT Computer to launch the attack.
 
-This worm led to the first conviction under the lewly introducted 1986
-Computer Fraud and Abuse Act and left Morris witha fine and 400 hours of
+This worm led to the first conviction under the newly introduced 1986
+Computer Fraud and Abuse Act and left Morris with a fine and 400 hours of
 Community Service.
 
 #### Additional Resources / Further Reading

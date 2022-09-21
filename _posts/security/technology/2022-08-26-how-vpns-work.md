@@ -49,7 +49,7 @@ What this means is that if there is content that is only accessible for computer
 your traffic looks like it's coming from within that country.
 
 ![World Map](/assets/img/world-map.png){: .shadow}
-_World Map - region specific content_
+_World Map - region-specific content_
 
 ##### Secure Browsing
 
