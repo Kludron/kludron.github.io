@@ -36,7 +36,7 @@ numbers.
 **MD5** and many others.
 {: .prompt-tip}
 
-Hash functions, however, are much more complex that just taking in 
+Hash functions, however, are much more complex than just taking in 
 data and spitting out a result. There are several *rules* that a 
 hash function must live by for it to be used / counted as a hash
 function.
