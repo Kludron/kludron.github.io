@@ -33,7 +33,7 @@ found in a platform.
 
 {:#Scam-Watch} [Scam Watch](https://www.scamwatch.gov.au/)
 : This is another online reporting tool for individuals to report scams, identify scams, receive advice if you've been scammed, 
-and stay up to datewith the latest information around scams / which ways scammers are trying to steal from you.
+and stay up to date with the latest information around scams / which ways scammers are trying to steal from you.
 
 {:#Norton-Power-Eraser} [Norton Power Eraser](https://support.norton.com/sp/static/external/tools/npe.html)
 : This tool is useful in an instance where a computer needs to be eradicated of all viruses and the standard anti-virus
