@@ -48,12 +48,26 @@ permalink: /feed.xml
 
   {% if post.summary %}
     <description>
+      <![CDATA[
+      {% if post.icon %}
+        <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" height="{{ post.icon.heigh }}" width="post.icon.width" href="{{ post_absolute_url }}" />
+      {% else %}
+        <img src="{{ '/assets/img/logos/Blue\+Grey\+White\ on\ Dark.png }}" alt="{{ site.title }}" width="500" href="{{ post_absolute_url }}" />
+      {& endif &}
         {{ post.summary | strip }}
+      ]]>
     </description>
   {% else %}
     <description>
-      {% include no-linenos.html content=post.content %}
-      {{ content  | strip_html | truncate: 200 }}
+      <![CDATA[
+      {% if post.icon %}
+        <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" height="{{ post.icon.heigh }}" width="post.icon.width" href="{{ post_absolute_url }}" />
+      {% else %}
+        <img src="{{ '/assets/img/logos/Blue\+Grey\+White\ on\ Dark.png }}" alt="{{ site.title }}" width="500" href="{{ post_absolute_url }}" />
+      {& endif &}
+        {% include no-linenos.html content=post.content %}
+        {{ content  | strip_html | truncate: 200 }}
+      ]]>
     </description>
   {% endif %}
 
