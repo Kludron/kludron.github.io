@@ -9,8 +9,6 @@ title: "How it works: Virtual Private Network (VPN)"
 summary: "Virtual Private Networks or VPN's are one of the most commonly used terms when it comes to cyber security, but what is a VPN and how does it work?"
 icon:
   path: /assets/img/VPN-connection.png
-  width: 800
-  height: 500
   alt: "VPN Connection from Client to Server"
 ---
 

@@ -3,12 +3,13 @@ layout: post
 published: true
 author: Kludron
 categories: [Security, Hacking]
-title: "A brief look into Ransomware"
+title: "A Brief Overview of Ransomware"
 date: "2022-09-23 09:00:00 +1000"
 summary: "What is ransomware? And what should I do if I see ransomware? In this blog we take a brief look into some of the information you should know about this type of computer virus, and how to mitigate the damage caused by a ransomware attack."
-tags: [Phishing, Computer Virus, Ransomware]
+tags: [Phishing, Computer Virus, Ransomware, What are they]
 icon:
   path: /assets/img/ransom-note.jpg
+  alt: "Cash Ransom Note"
 ---
 
 ## What is Ransomware?

@@ -4,9 +4,9 @@ published: true
 pin: false
 author: Kludron
 categories: [Security]
-title: "What are hashed passwords?"
+title: "What are Hashed Passwords?"
 summary: "Briefly looking into what hashed passwords are, where they're used, what their characteristics are and why we use them."
-tags: [Hashed Passwords, Hashing, Passwords]
+tags: [Hashed Passwords, Hashing, Passwords, What are they]
 ---
 
 When looking around at cyber security concepts, one term that is used

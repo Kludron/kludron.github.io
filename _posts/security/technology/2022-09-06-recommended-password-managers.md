@@ -4,13 +4,11 @@ published: true
 categories: [Security, Technology]
 author: Kludron
 pin: false
-tags: [Password Manager, Bitwarden, Lastpass, 1Password, Keepassxc, Dashlane, Personal Security]
+tags: [Password Manager, Bitwarden, Lastpass, 1Password, Keepassxc, Dashlane, Personal Security, Recommendation]
 title: Top Recommended Password Managers
 summary: "Looking at some of the top password managers, and which ones I would recommend for which use."
 icon:
   path: /assets/img/password-login.png
-  width: 800
-  height: 500
   alt: "Login screen with username and password"
 ---
 

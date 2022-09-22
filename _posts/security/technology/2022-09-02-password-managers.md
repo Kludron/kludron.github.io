@@ -4,8 +4,9 @@ published: true
 categories: [Security, Technology]
 author: Kludron
 pin: false
-tags: [Passwords, Password Managers, Personal Security]
-title: An Overview of Password Managers
+date: "2022-09-02 09:00:00 +1000"
+tags: [Passwords, Password Managers, Personal Security, What are they]
+title: "What are they: Password Managers"
 summary: "What are password managers, and why are they so important? Password Managers have become more and more popular lately, but how do they work? Are they more of an inconvenience?"
 ---
 
