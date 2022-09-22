@@ -24,7 +24,8 @@ permalink: /feed.xml
   <item>
     <title>{{ post.title }}</title>
     <link>{{ post_absolute_url }}</link>
-    <published>{{ post.date | date_to_xmlschema }}</published>
+    <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+    <ttl>3600</ttl>
     <content src="{{ post_absolute_url }}" />
     <author>
       <name>{{ post.author | default: site.social.name }}</name>
