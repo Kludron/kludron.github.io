@@ -7,11 +7,6 @@ pin: false
 tags: [Passwords, Password Managers, Personal Security]
 title: An Overview of Password Managers
 summary: "What are password managers, and why are they so important? Password Managers have become more and more popular lately, but how do they work? Are they more of an inconvenience?"
-icon:
-  path: /assets/img/sticky-note-password.png
-  width: 800
-  height: 500
-  alt: Sticky Note with Passwords
 ---
 
 A Password Manager is a tool that is used to keep a copy of all of your passwords.
