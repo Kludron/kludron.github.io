@@ -2,10 +2,9 @@
 layout: compress
 permalink: /feed.xml
 ---
-
-{% capture source %}
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
+{% capture source %}
 <channel>
   <id>{{ "/" | absolute_url }}</id>
   <title>{{ site.title }}</title>
@@ -26,7 +25,7 @@ permalink: /feed.xml
   {% assign post_absolute_url = post.url | absolute_url %}
   <item>
     <title>{{ post.title }}</title>
-    <link href="{{ post_absolute_url }}" rel="alternate" type="text/html" title="{{ post.title }}" />
+    <link>{{ post_absolute_url }}</link>
     <published>{{ post.date | date_to_xmlschema }}</published>
   {% if post.last_modified_at %}
     <updated>{{ post.last_modified_at | date_to_xmlschema }}</updated>
