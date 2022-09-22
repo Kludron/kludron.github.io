@@ -12,4 +12,4 @@ fi
 
 # Start Docker instance; then
 echo "Starting docker instance..."
-docker run --name $sitename --rm -e JEKYLL_ENV=development --volume="$rootpath:/srv/jekyll" -p 80:80 -it jekyll/jekyll jekyll serve --watch --port 80
+docker run --name $sitename --rm -e JEKYLL_ENV=development --volume="$rootpath:/srv/jekyll" -p 80:80 -it jekyll/jekyll jekyll serve --watch --port 80 --future
