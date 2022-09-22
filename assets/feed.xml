@@ -54,14 +54,14 @@ permalink: /feed.xml
           <img src="https://lukewarmsecurityinfo.com/assets/img/logos/Blue+Grey+White%20on%20Dark.png" alt="{{ site.title }}" width="300" href="{{ post_absolute_url }}" />
         {% endif %}
       {% endcapture %}
-        {{post_image}}
+        {{post_image}} <br>
         {{ post.summary | strip }}
       ]]>
     </description>
   {% else %}
     <description>
       <![CDATA[
-        {{ post_image }}
+        {{ post_image }} <br>
         {% include no-linenos.html content=post.content %}
         {{ content  | strip_html | truncate: 200 }}
       ]]>
