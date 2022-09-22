@@ -1,7 +1,6 @@
 ---
 layout: compress
 permalink: /feed.xml
-# Atom Feed, reference: https://validator.w3.org/feed/docs/atom.html
 ---
 
 {% capture source %}
@@ -53,7 +52,7 @@ permalink: /feed.xml
         <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" height="{{ post.icon.heigh }}" width="post.icon.width" href="{{ post_absolute_url }}" />
       {% else %}
         <img src="{{ '/assets/img/logos/Blue\+Grey\+White\ on\ Dark.png }}" alt="{{ site.title }}" width="500" href="{{ post_absolute_url }}" />
-      {& endif &}
+      {% endif %}
         {{ post.summary | strip }}
       ]]>
     </description>
@@ -64,23 +63,12 @@ permalink: /feed.xml
         <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" height="{{ post.icon.heigh }}" width="post.icon.width" href="{{ post_absolute_url }}" />
       {% else %}
         <img src="{{ '/assets/img/logos/Blue\+Grey\+White\ on\ Dark.png }}" alt="{{ site.title }}" width="500" href="{{ post_absolute_url }}" />
-      {& endif &}
+      {% endif %}
         {% include no-linenos.html content=post.content %}
         {{ content  | strip_html | truncate: 200 }}
       ]]>
     </description>
   {% endif %}
-
-    <image>
-      <title>{{ post.title }}</title>
-    {% if post.icon %}
-      <url>{{ post.icon.path | absolute_url }}</url>
-    {% else %}
-      <url>{{ '/assets/logo/Blue\+Grey\+White\ on\ Dark.png' | absolute_url }}</url>
-    {% endif %}
-      <link>{{ post_absolute_url }}</link>
-    </image>
-    
   </item>
 {% endfor %}
 </channel>
