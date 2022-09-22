@@ -6,7 +6,6 @@ permalink: /feed.xml
 <rss version="2.0">
 {% capture source %}
 <channel>
-  <id>{{ "/" | absolute_url }}</id>
   <title>{{ site.title }}</title>
   <description>{{ site.description }}</description>
   <author>
@@ -14,7 +13,6 @@ permalink: /feed.xml
     <uri>{{ "/" | absolute_url }}</uri>
   </author>
   <link>{{ site.baseurl | absolute_url }}</link>
-  <rights> © {{ 'now' | date: '%Y' }} {{ site.social.name }} </rights>
   <image>
     <url>{{ site.baseurl | absolute_url }}assets/img/favicons/favicon-32x32.png</url>
     <title>{{ site.title }}</title>
@@ -27,12 +25,6 @@ permalink: /feed.xml
     <title>{{ post.title }}</title>
     <link>{{ post_absolute_url }}</link>
     <published>{{ post.date | date_to_xmlschema }}</published>
-  {% if post.last_modified_at %}
-    <updated>{{ post.last_modified_at | date_to_xmlschema }}</updated>
-  {% else %}
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-  {% endif %}
-    <id>{{ post_absolute_url }}</id>
     <content src="{{ post_absolute_url }}" />
     <author>
       <name>{{ post.author | default: site.social.name }}</name>
@@ -49,9 +41,9 @@ permalink: /feed.xml
       <![CDATA[
       {% capture post_image %}
         {% if post.icon %}
-          <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" width="300" href="{{ post_absolute_url }}" />
+          <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt | default: site.title }}" width="300" height="200" href="{{ post_absolute_url }}" />
         {% else %}
-          <img src="https://lukewarmsecurityinfo.com/assets/img/logos/Blue+Grey+White%20on%20Dark.png" alt="{{ site.title }}" width="300" href="{{ post_absolute_url }}" />
+          <img src="https://lukewarmsecurityinfo.com/assets/img/logos/Blue+Grey+White%20on%20Dark.png" alt="{{ site.title }}" width="300" height="200" href="{{ post_absolute_url }}" />
         {% endif %}
       {% endcapture %}
         {{post_image}} <br>
