@@ -47,22 +47,21 @@ permalink: /feed.xml
   {% if post.summary %}
     <description>
       <![CDATA[
-      {% if post.icon %}
-        <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" height="{{ post.icon.height }}" width="{{post.icon.width}}" href="{{ post_absolute_url }}" />
-      {% else %}
-        <img src="https://lukewarmsecurityinfo.com/assets/img/logos/Blue+Grey+White%20on%20Dark.png" alt="{{ site.title }}" width="500" href="{{ post_absolute_url }}" />
-      {% endif %}
+      {% capture post_image %}
+        {% if post.icon %}
+          <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" width="300" href="{{ post_absolute_url }}" />
+        {% else %}
+          <img src="https://lukewarmsecurityinfo.com/assets/img/logos/Blue+Grey+White%20on%20Dark.png" alt="{{ site.title }}" width="300" href="{{ post_absolute_url }}" />
+        {% endif %}
+      {% endcapture %}
+        {{post_image}}
         {{ post.summary | strip }}
       ]]>
     </description>
   {% else %}
     <description>
       <![CDATA[
-      {% if post.icon %}
-        <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" height="{{ post.icon.height }}" width="{{ post.icon.width}}" href="{{ post_absolute_url }}" />
-      {% else %}
-        <img src="https://lukewarmsecurityinfo.com/assets/img/logos/Blue+Grey+White%20on%20Dark.png" alt="{{ site.title }}" width="500" href="{{ post_absolute_url }}" />
-      {% endif %}
+        {{ post_image }}
         {% include no-linenos.html content=post.content %}
         {{ content  | strip_html | truncate: 200 }}
       ]]>
