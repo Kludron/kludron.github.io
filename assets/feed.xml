@@ -48,7 +48,7 @@ permalink: /feed.xml
     <description>
       <![CDATA[
       {% if post.icon %}
-        <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" height="{{ post.icon.heigh }}" width="post.icon.width" href="{{ post_absolute_url }}" />
+        <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" height="{{ post.icon.height }}" width="{{post.icon.width}}" href="{{ post_absolute_url }}" />
       {% else %}
         <img src="https://lukewarmsecurityinfo.com/assets/img/logos/Blue+Grey+White%20on%20Dark.png" alt="{{ site.title }}" width="500" href="{{ post_absolute_url }}" />
       {% endif %}
@@ -59,7 +59,7 @@ permalink: /feed.xml
     <description>
       <![CDATA[
       {% if post.icon %}
-        <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" height="{{ post.icon.heigh }}" width="post.icon.width" href="{{ post_absolute_url }}" />
+        <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt }}" height="{{ post.icon.height }}" width="{{ post.icon.width}}" href="{{ post_absolute_url }}" />
       {% else %}
         <img src="https://lukewarmsecurityinfo.com/assets/img/logos/Blue+Grey+White%20on%20Dark.png" alt="{{ site.title }}" width="500" href="{{ post_absolute_url }}" />
       {% endif %}
