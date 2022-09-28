@@ -42,7 +42,3 @@ jobs:
       name: prod
       url: https://lukewarmsecurityinfo.com
 
-    steps:
-      - uses: actions/checkout@v2
-      - name:
-
