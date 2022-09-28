@@ -34,11 +34,11 @@ jobs:
         - name: Run Build
           run: bash tools/localrun.sh --dry-run
 
-  deploy-production:
-    needs: [build]
-
-    runs-on: ubuntu-latest
-    environment:
-      name: prod
-      url: https://lukewarmsecurityinfo.com
+  # deploy-production:
+  #   needs: [build]
+  #
+  #   runs-on: ubuntu-latest
+  #   environment:
+  #     name: prod
+  #     url: https://lukewarmsecurityinfo.com
 
