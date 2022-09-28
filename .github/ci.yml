@@ -1,0 +1,48 @@
+name: 'CI'
+on:
+  push:
+    branches:
+      - dev
+    paths-ignore:
+      - '.github/**'
+      - '!.github/workflows/ci.yml'
+      - '.gitignore'
+      - 'README.md'
+      - 'LICENSE'
+  pull_request:
+    paths:
+      - prod
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby: [2.5, .26, 2.7, 3]
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+          with:
+            fetch-depth: 0
+
+        - name: Setup Ruby
+          uses: ruby/setup-ruby@v1
+          with:
+            ruby-version: ${{ matrix.ruby }}
+            bundler-cache: true
+
+        - name: Run Build
+          run: bash tools/localrun.sh --dry-run
+
+  deploy-production:
+    needs: [build]
+
+    runs-on: ubuntu-latest
+    environment:
+      name: prod
+      url: https://lukewarmsecurityinfo.com
+
+    steps:
+      - uses: actions/checkout@v2
+      - name:
+
