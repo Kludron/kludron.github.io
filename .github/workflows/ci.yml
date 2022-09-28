@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - dev
+      - prod
     paths-ignore:
       - '.github/**'
       - '!.github/workflows/ci.yml'
