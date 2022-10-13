@@ -55,18 +55,3 @@ sharing your home address with everyone.
 good practice to keep your data private and secure, since you're not
 sharing your credit card details with every single company that you
 purchase something online for.
-
-Your information has value, and companies utilise that value to make profit. This is why
-companies such as TikTok or Facebook that are free have SO MUCH profit. Because you are the product.
-
-
-Privacy is .... This post aims to tackle part of this.
-
-"I have nothing to hide" - Why do you close the door when you go to the bathroom? Why do you shut the door when you're getting
-changed?
-
-Have you ever said something offensive to anyone as a joke? Take it out of context and it's no longer a joke.
-
-Privacy has value, that's why Facebook and Google earn so much money from their free services - because they sell
-their data, and data has value.
-

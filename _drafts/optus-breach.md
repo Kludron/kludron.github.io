@@ -29,6 +29,6 @@ of this breach **...** days later on the **...**.
 
 # How to protect yourself?
 
-## Involved in the breach?
+## If I was oinvolved in the breach?
 
-## Not involved in the breach?
+## If I was not involved in the breach?
