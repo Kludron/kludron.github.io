@@ -37,29 +37,26 @@ permalink: /rss.xml
     {% endfor %}
   {% endif %}
 
-  {% if post.summary %}
-    <description>
-      <![CDATA[
-      {% capture post_image %}
-        {% if post.icon %}
-          <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt | default: site.title }}" width="300" height="200" href="{{ post_absolute_url }}" />
-        {% else %}
-          <img src="https://lukewarmsecurityinfo.com/assets/img/logos/Blue+Grey+White%20on%20Dark.png" alt="{{ site.title }}" width="300" height="200" href="{{ post_absolute_url }}" />
-        {% endif %}
-      {% endcapture %}
-        {{post_image}} <br>
-        {{ post.summary | strip }}
-      ]]>
-    </description>
-  {% else %}
-    <description>
-      <![CDATA[
+  <description>
+    <![CDATA[
+      {% if post.summary %}
+        {% capture post_image %}
+          {% if post.icon %}
+            <img src="{{ post.icon.path | absolute_url }}" alt="{{ post.icon.alt | default: site.title }}" width="300" height="200" href="{{ post_absolute_url }}" />
+          {% else %}
+            <img src="https://lukewarmsecurityinfo.com/assets/img/logos/Blue+Grey+White%20on%20Dark.png" alt="{{ site.title }}" width="300" height="200" href="{{ post_absolute_url }}" />
+          {% endif %}
+        {% endcapture %}
+          {{ post_image }} <br>
+          {{ post.summary | strip }}
+      {% else %}
         {{ post_image }} <br>
         {% include no-linenos.html content=post.content %}
         {{ content  | strip_html | truncate: 200 }}
-      ]]>
-    </description>
-  {% endif %}
+      {% endif %}
+      <br> <a href="{{ post_absolute_url }}">Read More...</a>
+    ]]>
+  </description>
   </item>
 {% endfor %}
 </channel>
