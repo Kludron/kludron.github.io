@@ -54,7 +54,7 @@ permalink: /rss.xml
         {% include no-linenos.html content=post.content %}
         {{ content  | strip_html | truncate: 200 }}
       {% endif %}
-      <br> <a href="{{ post_absolute_url }}">Read More...</a>
+      <br> <a href="{{ post_absolute_url }}">Continue...</a>
     ]]>
   </description>
   </item>
