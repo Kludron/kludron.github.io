@@ -19,7 +19,7 @@ permalink: /rss.xml
     <link>{{ site.baseurl | absolute_url }}</link>
   </image>
 
-{% for post in site.posts limit: 10 %}
+{% for post in site.posts limit: 15 %}
   {% assign post_absolute_url = post.url | absolute_url %}
   <item>
     <title>{{ post.title }}</title>
