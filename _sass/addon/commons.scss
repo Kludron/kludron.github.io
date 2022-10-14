@@ -423,6 +423,10 @@ img[data-src] {
     }
   } /* a */
 
+  iframe {
+    @include align-center;
+  }
+
 }
 
 .pageviews .fa-spinner {
