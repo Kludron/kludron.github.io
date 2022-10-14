@@ -8,6 +8,8 @@ date: "2022-10-14 12:15:00 +1100"
 title: "What is End-to-End Encryption?"
 summary: "Taking a look into what End-to-End Encryption is, how it works, and why all End-to-End Encrypting apps are not the same."
 tags: [What are they, How it works, Privacy, End-to-End Encryption, Encryption, Whatsapp, Signal, iMessage, Threema, WeChat, Personal Security]
+icon:
+  path: /assets/img/FBI-E2EE-document.png
 ---
 
 End-to-End Encryption (E2EE) is a security implementation used to ensure that only the sender and receiver can view a message.
