@@ -424,6 +424,10 @@ img[data-src] {
   } /* a */
 
   iframe {
+    max-width: 90%;
+    max-height: 20%;
+    width: 560px !important;
+    height: 315px !important;
     @include align-center;
   }
 

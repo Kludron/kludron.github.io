@@ -63,4 +63,4 @@ In terms of which app to use - I'd personally recommend [Signal](https://signal.
 
 ***Here's a video that might help explain End-to-End Encryption more***:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jkV1KEJGKRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{: .shadow}
+<iframe src="https://www.youtube-nocookie.com/embed/jkV1KEJGKRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{: .shadow}
