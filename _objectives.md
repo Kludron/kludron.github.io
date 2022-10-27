@@ -26,3 +26,7 @@
 
 **Github**
 - Set up deployment cycle.
+- Add example code for topics discussed, such as:
+  - Caesar Cipher
+  - Rot13
+  - Generating RSA Keys
